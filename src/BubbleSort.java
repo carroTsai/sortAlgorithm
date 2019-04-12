@@ -3,6 +3,7 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] number = {95,45,15,78,84,51,24,12};
         bubble_sort(number);
+
         for(int i = 0; i < number.length; i++) {
             System.out.print(number[i] + " ");
         }
