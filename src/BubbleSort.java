@@ -4,6 +4,8 @@ public class BubbleSort {
         int[] number = {95,45,15,78,84,51,24,12};
         bubble_sort(number);
 
+        System.out.println("This is bubble sort.");
+
         for(int i = 0; i < number.length; i++) {
             System.out.print(number[i] + " ");
         }

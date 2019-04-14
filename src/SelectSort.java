@@ -2,6 +2,7 @@ public class SelectSort {
     public static void main(String[] args) {
         int[] number = {3,1,2,8,4,5,24,12};
         SimpleSort(number);
+        System.out.println("This is select sort.");
         for(int i = 0; i < number.length; i++) {
             System.out.print(number[i] + " ");
         }

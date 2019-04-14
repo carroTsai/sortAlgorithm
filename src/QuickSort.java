@@ -2,6 +2,7 @@ public class QuickSort {
     public static void main(String[] args) {
         int [] arr = {8,1,0,4,6,2,7,9,5,3};
         quickSort(arr,0,arr.length-1);
+        System.out.println("This is quick sort.");
         for(int i :arr){
             System.out.println(i);
         }
